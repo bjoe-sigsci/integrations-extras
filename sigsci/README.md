@@ -25,13 +25,20 @@ To use the Signal Sciences-Datadog integration, you must be a customer of Signal
 
 ### Configuration
 
-Within Datadog, [create an API key][2].
+Find and install the Signal Sciences integration tile in the Datadog integrations tab and Install the integration:
+  - Within Datadog, [create an API key][2].
+  - In your [Signal Sciences Dashboard][3] on the Site navigation bar, click Manage > Integrations and click Add next to the Datadog Event integration.
+  - Enter the API Key in the API Key field.
+  - Click Add.
 
-In your [Signal Sciences Dashboard][3] on the Site navigation bar, click Manage > Integrations and click Add next to the Datadog Event integration.
+Then, Confirm that the Datadog agent is configured to listen externally for DogStatsD events: https://docs.datadoghq.com/developers/dogstatsd/
 
-Enter the API Key in the API Key field.
+Verify that the “Signal Sciences - Overview” dashboard is created and starting to capture metrics.
 
-Click Add.
+Need more information? Here’s a video that covers the agent configuration and Datadog setup: https://vimeo.com/signalsciences
+
+
+
 
 ## Data Collected
 ### Metrics
